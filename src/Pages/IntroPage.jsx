@@ -1,6 +1,8 @@
 import React from "react";
 
 import "../Css/IntroPage.css";
+import { Link } from "react-router-dom";
+
 
 const IntroPage = () => {
   return (
@@ -11,9 +13,9 @@ const IntroPage = () => {
           <p className="intro-para">
             Your one-stop online shop for everything you need!
           </p>
-          <a href="/login" className="btn">
+        <Link to="/login"><a href="" className="btn">
             Start Shopping
-          </a>
+          </a></Link>  
         </div>
       </div>
     </>

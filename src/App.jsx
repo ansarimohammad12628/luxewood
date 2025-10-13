@@ -35,7 +35,7 @@ function AppContent() {
 
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/luxewood" >
         <Navbar />
         <Routes>
           <Route path="/" element={<IntroPage />} />
