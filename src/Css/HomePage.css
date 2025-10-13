@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    font-family: Arial, sans-serif;
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e3f7ff;
+    padding: 40px;
+    gap: 30px;
+}
+
+.top-text {
+    font-weight: 800;
+    font-size: 30px;
+    color: #333;
+}
+
+.para {
+    text-align: center;
+    line-height: 30px;
+}
+
+.sofa img {
+    width: 100%;
+}
+
+.card-section-down {
+    padding: 60px 0;
+}
+
+.bg-image {
+    background-image: url(../assets/Images/JPG/subscribebg.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.bg-color {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.quality-name {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.quality-image img {
+    transition: filter 0.3s ease;
+}
+
+.quality-image img:hover {
+    filter: brightness(50%);
+}
+
+.main-card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    /* align-items: center; */
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+.card {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 60px 10px;
+
+}
+
+.card2 {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 60px 10px;
+    height: 430px;
+}
+
+.left-image {
+    width: 50%;
+}
+
+.left-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-card-part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.card-text {
+    color: #222;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.card-down-text {
+
+    color: #cac9c9;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.45px;
+    margin: 10px 0 0 0;
+}
+
+.button-text {
+    border: none;
+    background: #1daaa3;
+    padding: 10px;
+    color: #ffff;
+
+}
+
+.button-text:hover {
+    transition: all 0.6s ease;
+    color: #50e3c2;
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.card-down {
+    display: flex;
+    gap: 20px;
+}
+
+.discount-card {
+    background-color: #1daaa3;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.discount-border {
+    border: 1px solid white;
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.discount-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.discount-subtitle2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.discount-text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.discount-button {
+    background-color: #9ce4e0;
+    color: #1daaa3;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.discount-button:hover {
+    background-color: white;
+    color: #1daaa3;
+}
+
+.discount-button2 {
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.discount-button2:hover {
+    color: #1daaa3;
+    border: 1px solid #1daaa3;
+
+}
+
+.card-down-right {
+
+    background-image: url(../assets/Images/JPG/ad-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 317px;
+}
+
+.down-card-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+@media(max-width:768px) {
+
+    .main-card-section {
+        padding: 60px 30px;
+    }
+
+    .card-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .quality-name {
+        justify-content: center;
+    }
+
+    .card2 {
+        height: auto;
+    }
+
+    .left-card {
+        justify-content: normal;
+    }
+
+    .discount-border {
+        padding: 0 20px;
+    }
+
+    .discount-button {
+        padding: 10px 0;
+    }
+
+    .discount-button2 {
+        padding: 10px 10px;
+
+    }
+
+    .button-text {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:426px) {
+    .main-card-section {
+        flex-direction: column;
+    }
+
+    .card-down {
+        flex-direction: column;
+    }
+
+    .left-card {
+        width: 100%;
+    }
+
+    .right-card {
+        width: 100%;
+    }
+
+    .card-down {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount-card {
+        height: 217px;
+    }
+
+}
+
+@media(max-width:376px) {
+    .top-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:321px) {
+    .discount-card {
+        height: 200px;
+        width: 250px;
+    }
+
+    .card-down-right {
+        height: 200px;
+        width: 250px;
+    }
+
+    .bg-image{
+        height: auto;
+    }
+      
+
+}
