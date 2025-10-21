@@ -17,10 +17,10 @@ const LoginPage = ({ setIsLoggedIn }) => {
   }, [cookies, navigate, setIsLoggedIn]);
 
   const handleLogin = () => {
-    if (username === "corecode" && password === "00000000") {
+    if (username === "corecode" && password === "12345678") {
 
       const expireTime = new Date();
-      expireTime.setMinutes(expireTime.getMinutes() + 3);
+      expireTime.setMinutes(expireTime.getMinutes() + 30);
       setCookie("user", username, { path: "/", expires: expireTime });
       setIsLoggedIn(true);
       navigate("/home");
@@ -63,7 +63,7 @@ const LoginPage = ({ setIsLoggedIn }) => {
           username: <span>corecode</span>
         </div>
         <div className="login-text-2">
-          password: <span>00000000</span>
+          password: <span>12345678</span>
         </div>
       </div>
     </div>

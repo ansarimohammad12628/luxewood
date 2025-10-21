@@ -45,9 +45,10 @@ const HomePage = () => {
               <div className="right-card-part">
                 <div className="right-part">
                   <div className="card-text">
-                    <p>Save up</p>
-                    <p>to 50%</p>
-                    <p>Off</p>
+                    <p>
+                      Save up to 50% Off
+                    </p>
+                  
                   </div>
                   <div className="card-down-text">STYLISH FURNITURE</div>
                 </div>
@@ -60,9 +61,9 @@ const HomePage = () => {
               <div className="right-card-part">
                 <div className="right-part">
                   <div className="card-text">
-                    <p>Save up</p>
-                    <p>to 50%</p>
-                    <p>Off</p>
+                 <p>
+                      Save up to 50% Off
+                    </p>
                   </div>
                   <div className="card-down-text">STYLISH FURNITURE</div>
                 </div>
@@ -87,19 +88,20 @@ const HomePage = () => {
               <div className="right-card-part">
                 <div className="right-part">
                   <div className="card-text">
-                    <p>STUNNING</p>
-                    <p>MODERN SOFA</p>
+                   
+                    <p>STUNNING MODERN SOFA</p>
+                    
                   </div>
                 </div>
-                <div></div>
+                
               </div>
             </div>
             <div className="card">
               <div className="right-card-part">
                 <div className="right-part">
                   <div className="card-text">
-                    <p>LUXURY SOFA</p>
-                    <p>COLLECTION</p>
+                    <p>LUXURY SOFA COLLECTION</p>
+                
                   </div>
                 </div>
                 <div>

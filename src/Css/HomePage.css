@@ -357,6 +357,10 @@
     .bg-image{
         height: auto;
     }
+
+    .card-text{
+        font-size: 13px;
+    }
       
 
 }
